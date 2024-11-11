@@ -17,7 +17,7 @@ const PelisDetails = () => {
         setPelicula(peliculaData);
         
         const trailerData = await getMovieTrailers(id);
-        // Filtrar solo los videos que son trailers de YouTube
+
         const trailersDisponibles = trailerData.results.filter(
           video => video.type === 'Trailer' && video.site === 'YouTube'
         );

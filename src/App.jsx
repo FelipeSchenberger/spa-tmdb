@@ -4,13 +4,13 @@ import Home from './pages/Home';
 import PelisDetails from './pages/PelisDetails';
 import ResultadoBusqueda from './pages/ResultadoBusqueda';
 import BarraBusqueda from './components/BarraBusqueda';
-import NavBar from './components/NavBar';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <Router>
       <div className="min-h-screen bg-gray-900 text-gray-100">
-        <NavBar />
+        <Navbar />
         <div className="container mx-auto px-4 py-4">
           <BarraBusqueda />
           <Routes>

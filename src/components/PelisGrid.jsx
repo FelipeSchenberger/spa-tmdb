@@ -2,7 +2,7 @@ import React from 'react';
 import PelisCarta from './PelisCarta';
 
 const PelisGrid = ({ peliculas }) => {
-  const totalInRow = 5; // Asumiendo 5 columnas en pantallas grandes
+  const totalInRow = 5;
 
   return (
     <div className="container mx-auto px-4">
